@@ -20,7 +20,6 @@ def passwordgenerator (length) :
     check = checkNum(password)
 
     test = random.choice(string.digits)
-    print(test)
 
     #check if there is at least a number present in the generated password
     if check == True :
